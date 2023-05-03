@@ -1,16 +1,16 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import ContactForm from './pages/ContactForm';
 
 function App() {
   return (
     <>
-      <h1>LEO</h1>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-    </Routes>
+      <Routes>
+        <Route path="/Web-Portfolio" element={<Home />} />
+        <Route path="/contactform" element={<ContactForm />} />
+      </Routes>
     </>
-    
   );
 }
 
