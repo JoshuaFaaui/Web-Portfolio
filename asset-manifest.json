@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/js/main.bd6d7eec.js",
+    "static/js/787.cda612ba.chunk.js": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/js/787.cda612ba.chunk.js",
+    "index.html": "/http//JoshuaFaaui.github.io/Web_Portfolio/index.html",
+    "main.073c9b0a.css.map": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/css/main.073c9b0a.css.map",
+    "main.bd6d7eec.js.map": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/js/main.bd6d7eec.js.map",
+    "787.cda612ba.chunk.js.map": "/http//JoshuaFaaui.github.io/Web_Portfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bd6d7eec.js"
+  ]
+}
