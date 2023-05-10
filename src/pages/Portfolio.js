@@ -16,17 +16,17 @@ function Portfolio() {
     <div>
       <CustomText text="Services"/>
       <motion.div initial={{ x: "-100vw" }} animate={{ x: 0 }} transition={{ delay:.3 }} className='VideosContainer'>
-        <h1>I offer user account systems into websites</h1>
+        <h1>I offer login&singup<br/>integrations into websites</h1>
         <h2>(Forgot Password Process)</h2>
         <video src={ForgotPasswordVid} muted={true} autoPlay={true} controls />
-        <p>Here am I as a user, going through a reset password process<br/>which i've built</p>
+        <p>Here I am as a user, going through a reset password process<br/>which i've built during one of my past projects<br/>i've worked on</p>
       </motion.div>
       <section ref={vid1}>
         <motion.div initial={{ x: "-100vw" }} animate={isinview1 ? { x: 0 } : undefined} transition={{ delay: .5 }} className='VideosContainer'>
           <h1>I offer stripe<br/>subscriptions & payments into websites</h1>
           <h2>(Stripe subscription process)</h2>
           <video src={StripeSubscription} muted={true} autoPlay={true} controls />
-          <p>Here I am going through a signup and subscription process for a website i've built</p>
+          <p>This is me going through a<br/>signup and subscription process<br/>that I had built in the same project as the previoius video</p>
         </motion.div>
       </section>
     </div>
