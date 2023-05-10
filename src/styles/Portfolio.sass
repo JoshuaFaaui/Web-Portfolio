@@ -11,7 +11,8 @@
     display: flex
     flex-direction: column
     align-items: center
-    margin-bottom: 15%
+    margin-bottom: 8%
+    margin-top: 5%
 
 .VideosContainer h1
     color: white
@@ -20,7 +21,6 @@
     text-align: center
     line-height: 2rem
     font-family: 'Rajdhani', sans-serif
-
 .VideosContainer h2
     color: white
     font-size: 80%
@@ -30,20 +30,30 @@
     text-align: center
     padding: 5%
     font-family: 'Kanit', sans-serif
-
+    padding-top: 0
+::-webkit-scrollbar
+    width: 12px
+::-webkit-scrollbar-thumb
+    background: linear-gradient(transparent,#005eff)
+    border-radius: 6px
+::-webkit-scrollbar-thumb:hover
+    background: linear-gradient(transparent,#0088ff)
 
 
 @media (max-width:600px)
     .VideosContainer video
         width: 90%
-        margin-top: 5%
+        margin-top: 1%
     .VideosContainer
         margin-bottom: 3rem
     .VideosContainer h1
         font-size: 1rem
+        line-height: 1rem
     .VideosContainer h2
         line-height: 1rem
         font-size: .5rem
+    .VideosContainer p
+        font-size: .7rem
 
     
     
