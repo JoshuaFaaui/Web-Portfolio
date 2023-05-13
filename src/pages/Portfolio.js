@@ -18,17 +18,17 @@ function Portfolio() {
       <PortfolioNav/>
       <CustomText text="Services"/>
       <motion.div initial={{ x: "-100vw" }} animate={{ x: 0}} transition={{ delay:.3 }} className='VideosContainer'>
-        <h1>I offer login&singup<br/>integrations into websites</h1>
+        <h1>We offer login&signup<br/>integrations into websites</h1>
         <h2>(Forgot Password Process)</h2>
         <video src={ForgotPasswordVid} muted={true} autoPlay={true} controls />
-        <p>As a user, i'm undergoing a password reset process<br/>that I previously developed during<br/>one of my past projects.</p>
+        <p>As a user, i'm undergoing a password reset process<br/>that I developed during one of my<br/>past projects.</p>
       </motion.div>
       <section ref={vid1}>
         <motion.div initial={{ x: "-100vw" }} animate={isinview1 ? { x: 0 } : undefined} transition={{ delay: .5 }} className='VideosContainer'>
-          <h1>I offer stripe<br/>subscriptions & payments into websites</h1>
+          <h1>We offer stripe<br/>subscriptions & payments into websites</h1>
           <h2>(Stripe subscription process)</h2>
           <video src={StripeSubscription} muted={true} autoPlay={true} controls />
-          <p>In the video i'm in the process of signing up and subscribing,<br/>utilizing a system that I developed in the same<br/>project as the previous video.</p>
+          <p>In this video, i'm in the process of signing up and subscribing,<br/>utilizing a system that I developed in the same<br/>project as the previous video.</p>
         </motion.div>
       </section>
     </motion.div>
