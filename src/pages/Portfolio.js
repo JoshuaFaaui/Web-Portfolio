@@ -16,7 +16,7 @@ function Portfolio() {
   return (
     <motion.div initial={{opacity:-1}} animate={{opacity:1,transition:{duration:1}}} exit={{opacity:0,transition:{duration:1}}}>
       <PortfolioNav/>
-      <CustomText text="Services"/>
+      {/* <CustomText text="Services"/>
       <motion.div initial={{ x: "-100vw" }} animate={{ x: 0}} transition={{ delay:.3 }} className='VideosContainer'>
         <h1>We offer login&signup<br/>integrations into websites</h1>
         <h2>(Forgot Password Process)</h2>
@@ -30,7 +30,7 @@ function Portfolio() {
           <video src={StripeSubscription} muted={true} autoPlay={true} controls />
           <p>In this video, i'm in the process of signing up and subscribing,<br/>utilizing a system that I developed in the same<br/>project as the previous video.</p>
         </motion.div>
-      </section>
+      </section> */}
     </motion.div>
   )
 }
