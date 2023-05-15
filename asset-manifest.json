@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Web-Portfolio/static/css/main.38c2199d.css",
-    "main.js": "/Web-Portfolio/static/js/main.376976a0.js",
+    "main.css": "/Web-Portfolio/static/css/main.eb5f3400.css",
+    "main.js": "/Web-Portfolio/static/js/main.bbe9d08a.js",
     "static/js/787.cda612ba.chunk.js": "/Web-Portfolio/static/js/787.cda612ba.chunk.js",
     "static/media/ForgotPassword.mp4": "/Web-Portfolio/static/media/ForgotPassword.bd4c959191e0f142f0ba.mp4",
     "static/media/StripeSubscription.mp4": "/Web-Portfolio/static/media/StripeSubscription.a102bc35b48442ed8259.mp4",
     "static/media/InstaLogo.png": "/Web-Portfolio/static/media/InstaLogo.80e598d8df0c0a94d580.png",
     "static/media/TwitterLogo.png": "/Web-Portfolio/static/media/TwitterLogo.35c0bca4d432a0f41ad0.png",
     "index.html": "/Web-Portfolio/index.html",
-    "main.38c2199d.css.map": "/Web-Portfolio/static/css/main.38c2199d.css.map",
-    "main.376976a0.js.map": "/Web-Portfolio/static/js/main.376976a0.js.map",
+    "main.eb5f3400.css.map": "/Web-Portfolio/static/css/main.eb5f3400.css.map",
+    "main.bbe9d08a.js.map": "/Web-Portfolio/static/js/main.bbe9d08a.js.map",
     "787.cda612ba.chunk.js.map": "/Web-Portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38c2199d.css",
-    "static/js/main.376976a0.js"
+    "static/css/main.eb5f3400.css",
+    "static/js/main.bbe9d08a.js"
   ]
 }
