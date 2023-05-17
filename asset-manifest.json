@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Web-Portfolio/static/css/main.fd4b5b87.css",
-    "main.js": "/Web-Portfolio/static/js/main.54bd784e.js",
+    "main.js": "/Web-Portfolio/static/js/main.5a5a9d63.js",
     "static/js/787.cda612ba.chunk.js": "/Web-Portfolio/static/js/787.cda612ba.chunk.js",
     "static/media/ForgotPassword.mp4": "/Web-Portfolio/static/media/ForgotPassword.bd4c959191e0f142f0ba.mp4",
     "static/media/StripeSubscription.mp4": "/Web-Portfolio/static/media/StripeSubscription.a102bc35b48442ed8259.mp4",
@@ -9,11 +9,11 @@
     "static/media/TwitterLogo.png": "/Web-Portfolio/static/media/TwitterLogo.35c0bca4d432a0f41ad0.png",
     "index.html": "/Web-Portfolio/index.html",
     "main.fd4b5b87.css.map": "/Web-Portfolio/static/css/main.fd4b5b87.css.map",
-    "main.54bd784e.js.map": "/Web-Portfolio/static/js/main.54bd784e.js.map",
+    "main.5a5a9d63.js.map": "/Web-Portfolio/static/js/main.5a5a9d63.js.map",
     "787.cda612ba.chunk.js.map": "/Web-Portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd4b5b87.css",
-    "static/js/main.54bd784e.js"
+    "static/js/main.5a5a9d63.js"
   ]
 }
