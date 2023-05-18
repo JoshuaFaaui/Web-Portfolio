@@ -2,10 +2,10 @@
 
 :root {
     --bg: #000000;
-    --clr-1: #7c0d00;
-    --clr-2: #d60a0a;
-    --clr-3: #ff2929;
-    --clr-4: #f43d2c;
+    --clr-1: #d60a0a;
+    --clr-2: #ff2929;
+    --clr-3: #f43d2c;
+    --clr-4: #f4432c;
 
     --blur: 1rem;
     --fs: clamp(3rem, 8vw, 7rem);

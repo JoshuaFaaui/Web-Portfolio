@@ -16,8 +16,8 @@ function Portfolio() {
   return (
     <motion.div initial={{opacity:-1}} animate={{opacity:1,transition:{duration:1}}} exit={{opacity:0,transition:{duration:1}}} id='PortfolioFoundation'>
       <PortfolioNav/>
-      <CustomText text="Services"/>
-      <motion.div initial={{ x: "-100vw" }} animate={{ x: 0}} transition={{ delay:.3 }} className='VideosContainer'>
+      <CustomText text="S̲e̲r̲v̲i̲c̲e̲s̲"/>
+      <motion.div initial={{ x: "-100vw" }} animate={{ x: 0}} transition={{ }} className='VideosContainer'>
         <h1>We offer login&signup<br/>integrations into websites</h1>
         <h2>(Forgot Password Process)</h2>
         <video src={ForgotPasswordVid} muted={true} autoPlay={true} controls />
