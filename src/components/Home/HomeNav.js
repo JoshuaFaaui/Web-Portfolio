@@ -8,7 +8,7 @@ function HomeNav() {
     <div id="HomeNavFoundation">
       <ul id='HomeNavOptions'>
         <li id='navhomeicon' className='Homenavlinks'><AiOutlineHome className='navicons'/><span>Home</span></li>
-        <Link to="portfolio" className='Homenavlinks'><FaRegHandshake className='navicons'/><span>Services</span></Link>
+        <Link to="services" className='Homenavlinks'><FaRegHandshake className='navicons'/><span>Services</span></Link>
       </ul>
     </div>
   );

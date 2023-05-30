@@ -8,6 +8,7 @@ import TwitterLogo from '../Assets/TwitterLogo.png'
 import axios from 'axios';
 import { TextField } from '@mui/material';
 import Button from '@mui/material/Button';
+import { Helmet } from 'react-helmet-async';
 function Home() {
   const [usersEmail, setUsersEmail] = useState('')
   const [usersMessage,setUsersMessage] = useState('')
@@ -26,7 +27,12 @@ function Home() {
   const vid2 = useRef(null);
   const isinview2 = useInView(vid2);
   return (
-    <motion.div className="w-screen h-screen" id="HomeFoundation" initial={{opacity:-1}} animate={{opacity:1,transition:{duration:1}}} exit={{opacity:-1,transition:{duration:1}}}>
+    <motion.div className="w-screen h-screen" id="HomeFoundation" initial={{ opacity: -1 }} animate={{ opacity: 1, transition: { duration: 1 } }} exit={{ opacity: -1, transition: { duration: 1 } }}>
+      <Helmet>
+        <title>Web Served - Building Websites For Small/Private Businesses</title>
+        <meta name='description' content="𝐖𝐞 𝐬𝐞𝐫𝐯𝐞 𝐚𝐧𝐲𝐨𝐧𝐞 𝐰𝐡𝐨's 𝐥𝐨𝐨𝐤𝐢𝐧𝐠 𝐭𝐨 𝐡𝐚𝐯𝐞 𝐚𝐧 𝐨𝐧𝐥𝐢𝐧𝐞 𝐬𝐭𝐨𝐫𝐞 𝐛𝐮𝐢𝐥𝐭 𝐚𝐧𝐝 𝐡𝐨𝐬𝐭𝐞𝐝" />
+        <link rel='canonical' href='/'/>
+      </Helmet>
       <HomeNav/>
       <CustomText text="ᴡᴇʙ ꜱᴇʀᴠᴇᴅ" />
       <motion.h1 initial={{ x: "-100vw" }} animate={{ x: 0}} transition={{ delay:.2 }} id='WelcomeHomeHeader'>Welcome to Web Served!</motion.h1>

@@ -1,17 +1,17 @@
 import React from "react";
-import "../../styles/Portfolio/Navbar/PortfolioNav.sass"
+import "../../styles/Services/Navbar/ServicesNav.sass"
 import { AiOutlineHome } from "react-icons/ai";
 import { FaRegHandshake } from "react-icons/fa";
 import { Link } from "react-router-dom";
-function PortfolioNav() {
+function ServicesNav() {
   return (
-    <div id="PortfolioNavFoundation">
-      <ul id="PortfolioNavOptions">
-        <Link to="/" className="Portfolionavlinks">
+    <div id="ServicesNavFoundation">
+      <ul id="ServicesNavOptions">
+        <Link to="/" className="Servicesnavlinks">
           <AiOutlineHome className="navicons" />
           <span>Home</span>
         </Link>
-        <li className="Portfolionavlinks" id="navportfolioicon">
+        <li className="Servicesnavlinks" id="navservicesicon">
           <FaRegHandshake className="navicons" />
           <span>Services</span>
         </li>
@@ -20,4 +20,4 @@ function PortfolioNav() {
   );
 }
 
-export default PortfolioNav;
+export default ServicesNav;
